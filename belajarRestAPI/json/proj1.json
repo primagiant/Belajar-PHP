@@ -1,0 +1,22 @@
+[
+    {
+        "nama" : "Prima Giant",
+        "umur" : 19,
+        "lulus" : false,
+        "gender": "Pria",
+        "hobby" : [
+            "coding",
+            "gaming"
+        ]
+    },
+    {
+        "nama" : "Prima Ryant",
+        "umur" : 15,
+        "lulus" : false,
+        "gender": "Pria",
+        "hobby" : [
+            "gaming",
+            "traveling"
+        ]
+    }
+]

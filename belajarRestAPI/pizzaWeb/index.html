@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Pizza Web</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img
+          class="img-fluid"
+          src="./img/logo.png"
+          alt="logo"
+          width="100"
+          height="28"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-5">
+            <a class="nav-link active" data-kategori="all" href="#">All Menu</a>
+            <a class="nav-link" data-kategori="pizza" href="#pizza">Pizza</a>
+            <a class="nav-link" data-kategori="pasta" href="#pasta">Pasta</a>
+            <a class="nav-link" data-kategori="nasi" href="#nasi">Nasi</a>
+            <a class="nav-link" data-kategori="minuman" href="#minuman"
+              >Minuman</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="mt-4 namaKategori">All Menu</h1>
+      <div class="row mt-3 card__container"></div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/myScript.js"></script>
+  </body>
+</html>
